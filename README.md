@@ -12,7 +12,10 @@
 
 实际文章统一放在 `articles/` 目录下，仓库根目录保留入口说明和计划文件。
 
-另外，通用配置文件统一放在 `configs/` 目录下，当前配置入口文件命名为 `registry.yaml`。
+另外，仓库保留两个独立目录：
+
+- `prompts/`：存放提示词资产
+- `configs/`：存放通用配置文件
 
 ### [articles/claude-code-agent-notes.md](./articles/claude-code-agent-notes.md)
 
@@ -40,16 +43,21 @@
 
 其中 `OpenClaw 上下文管理工程源码` 为明日优先推送议题。
 
-### [configs/registry.yaml](./configs/registry.yaml)
+### [prompts](./prompts)
 
-用于统一登记仓库中的通用配置与默认项，便于后续扩展为多类配置管理。
+用于集中存放可复用的 prompt、模板和相关草稿。
+
+### [configs](./configs)
+
+用于集中存放仓库里的通用配置文件。
 
 ## 更新方式
 
 这个仓库采用持续增补的方式维护，不追求形式化发布，主要通过以下方式迭代：
 
 - 在 `articles/` 下新增专题笔记
-- 在 `configs/` 下维护通用配置及其注册信息
+- 在 `prompts/` 下维护 prompt 资产
+- 在 `configs/` 下维护通用配置
 - 补充已有文档的判断、案例和链接
 - 在 `todo.md` 中维护接下来的分享主题
 
