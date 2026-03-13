@@ -10,7 +10,11 @@
 
 ## 仓库内容
 
-### [claude-code-agent-notes.md](./claude-code-agent-notes.md)
+实际文章统一放在 `articles/` 目录下，仓库根目录保留入口说明和计划文件。
+
+另外，通用配置文件统一放在 `configs/` 目录下，当前配置入口文件命名为 `registry.yaml`。
+
+### [articles/claude-code-agent-notes.md](./articles/claude-code-agent-notes.md)
 
 围绕 Claude Code Agent 的设计经验整理，当前重点包括：
 
@@ -32,14 +36,20 @@
 2. 大模型的共享概念空间
 3. 大模型以后可能写二进制而不是 Python
 4. AI 时代的焦虑如何化解
+5. CC 进阶 ask-question 和 todo list 的设计
 
 其中 `OpenClaw 上下文管理工程源码` 为明日优先推送议题。
+
+### [configs/registry.yaml](./configs/registry.yaml)
+
+用于统一登记仓库中的通用配置与默认项，便于后续扩展为多类配置管理。
 
 ## 更新方式
 
 这个仓库采用持续增补的方式维护，不追求形式化发布，主要通过以下方式迭代：
 
-- 新增专题笔记
+- 在 `articles/` 下新增专题笔记
+- 在 `configs/` 下维护通用配置及其注册信息
 - 补充已有文档的判断、案例和链接
 - 在 `todo.md` 中维护接下来的分享主题
 

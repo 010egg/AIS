@@ -1,0 +1,9 @@
+version: 1
+
+# Central registry for prompt assets in this repository.
+defaults:
+  language: zh-CN
+  owner: AIS
+  status: draft
+
+prompts: []
