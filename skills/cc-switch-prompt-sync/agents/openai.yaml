@@ -1,0 +1,4 @@
+interface:
+  display_name: "CC Switch Prompt Sync"
+  short_description: "Sync CC Switch prompts into repo"
+  default_prompt: "Use $cc-switch-prompt-sync to export CC Switch prompts into this repository and prepare them for commit."
