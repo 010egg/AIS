@@ -11,25 +11,5 @@
 
 ---
 
-## 2026-03-16 今日分享
+## 2026-03-16 边缘计算：端侧小模型与云端大模型的算力调度
 
-### 边缘计算：端侧小模型与云端大模型的算力调度
-
-#### 核心问题
-端侧模型（如 Gemini Nano、Llama Edge）如何在本地与云端大模型之间动态协作？"推理卸载"面临哪些工程挑战？
-
-#### 大纲
-1. **端侧小模型的技术现状与产品化**
-   - Gemini Nano: Pixel设备部署，2-4B参数
-   - Llama Edge: WebAssembly边缘方案
-   - Apple Intelligence: 端侧+云端Private Compute Cloud
-2. **三种主流混合推理架构拆解**
-   - LoRA Routing
-   - Speculative Decoding
-   - Cascaded Inference
-3. **"卸载决策"——下一个兵家必争之地**
-   - Model-as-a-Judge新架构
-4. **隐私与效率的终极博弈**
-5. **我的判断：未来3年的演进路线**
-
-建议时长：8-10分钟 | 难度：中高级
